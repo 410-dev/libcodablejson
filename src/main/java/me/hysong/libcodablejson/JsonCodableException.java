@@ -1,4 +1,4 @@
-package me.hysong.libhy3.jsoncodable;
+package me.hysong.libcodablejson;
 
 public class JsonCodableException extends RuntimeException {
     public JsonCodableException(String message) {

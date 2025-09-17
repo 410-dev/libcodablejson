@@ -1,4 +1,4 @@
-package me.hysong.libhy3.jsoncodable;
+package me.hysong.libcodablejson;
 
 import com.google.gson.*;
 import com.google.gson.reflect.TypeToken;

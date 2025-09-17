@@ -1,4 +1,4 @@
-package me.hysong.libhy3.jsoncodable;
+package me.hysong.libcodablejson;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
