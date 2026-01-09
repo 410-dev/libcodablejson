@@ -68,6 +68,8 @@ public class JsonCodableUtil {
     // Helper method to decide whether to process a field.
     private static boolean shouldProcessField(Field field) {
         return field.getDeclaringClass().isAnnotationPresent(Codable.class)
+                || field.getDeclaringClass().isAnnotationPresent(Encodable.class)
+                || field.getDeclaringClass().isAnnotationPresent(Decodable.class)
                 || field.isAnnotationPresent(Codable.class)
                 || field.isAnnotationPresent(Encodable.class)
                 || field.isAnnotationPresent(Decodable.class);
