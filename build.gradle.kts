@@ -37,5 +37,5 @@ tasks.jar {
         )
     }
     destinationDirectory.set(file("."))
-    archiveFileName.set("${project.name}.jar")
+    archiveFileName.set("libcodablejson.jar")
 }
